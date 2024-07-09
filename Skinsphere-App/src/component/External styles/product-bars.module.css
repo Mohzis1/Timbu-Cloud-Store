@@ -1,0 +1,64 @@
+.productContainer {
+  display: flex;
+  justify-content: center;
+    gap: 40px;
+}
+
+.productBarsOne {
+  text-decoration: none;
+   object-fit: auto;
+   margin: 34px;
+  width: 54px;
+  height: 51px;
+  border-radius: 24px;
+  border: 2px solid #69a7d0;
+  padding: 14px;
+  }
+
+.productBarsTwo {
+  text-decoration: none;
+    object-fit: auto;
+  margin: 34px;
+  width: 106px;
+  height: 51px;
+  border-radius: 24px;
+  border: 2px solid #69a7d0;
+  padding: 14px;
+
+}
+
+.productBarsThree {
+  text-decoration: none;
+    object-fit: auto;
+  margin: 34px;
+  width: 76px;
+  height: 46px;
+  border-radius: 24px;
+  border: 2px solid #69a7d0;
+  padding: 14px;
+ 
+}
+
+.productBarsFour {
+  text-decoration: none;
+   object-fit: auto;
+   margin: 34px;
+   width: 111px;
+  height: 46px;
+  border-radius: 24px;
+  border: 2px solid #69a7d0;
+  padding: 14px;
+  
+}
+
+.productBarsFive {
+  text-decoration: none;
+   object-fit: auto;
+   margin: 34px;
+   width: 82px;
+  height: 46px;
+  border-radius: 24px;
+  border: 2px solid #69a7d0;
+  padding: 14px;
+
+}

@@ -1,0 +1,23 @@
+ .navbar {
+    background-color:  #FFFFFF;
+    width: 100%;
+    height: 100%;
+    gap: 399px;
+    
+    justify-content: center;
+   
+ }
+ .container{
+  background-color:  #FFFFFF;
+   width: 100%;
+height: 72px;
+//padding: 12px, 0px, 12px, 0px;
+display: flex;
+align-items: center;
+//justify-item: center;
+//text-align: center;
+justify-content: center;
+
+gap: 32px;
+}
+  
