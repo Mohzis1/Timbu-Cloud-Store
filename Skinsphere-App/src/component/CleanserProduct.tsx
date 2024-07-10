@@ -1,14 +1,12 @@
 import styles from "./External styles/cleanserpro.module.css";
+import cleanser1Img  from"../assets/cleanser1.png";
+
 function CleanserProduct() {
   return (
     <section>
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
-          <img
-            src="./src/assets/cleanser1.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
-          />
+        <img src={cleanser1Img} alt="Cleanser Product" className={styles.imgcleanserpro} />
           <div className={`${styles.cleanserDetail}`}>
             <div>
               <h2
