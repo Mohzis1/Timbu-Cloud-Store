@@ -1,12 +1,17 @@
 import styles from "./External styles/cleanserpro.module.css";
-import cleanser1Img  from"../assets/cleanser1.png";
+import cleanser1Img from "../assets/cleanser1.png";
+import cleanser2Img from "../assets/cleanser2.png";
 
 function CleanserProduct() {
   return (
     <section>
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
-        <img src={cleanser1Img} alt="Cleanser Product" className={styles.imgcleanserpro} />
+          <img
+            src={cleanser1Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
+          />
           <div className={`${styles.cleanserDetail}`}>
             <div>
               <h2
@@ -26,9 +31,9 @@ function CleanserProduct() {
 
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser2.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser2Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -48,9 +53,9 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser1.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser1Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -73,9 +78,9 @@ function CleanserProduct() {
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser2.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser2Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -95,9 +100,9 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser1.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser1Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -117,9 +122,9 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser2.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser2Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -142,9 +147,9 @@ function CleanserProduct() {
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser1.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser1Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -164,9 +169,9 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser2.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser2Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
@@ -186,9 +191,9 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src="./src/assets/cleanser1.png"
-            alt=""
-            className={`${styles.imgcleanserpro}`}
+            src={cleanser1Img}
+            alt="Cleanser Product"
+            className={styles.imgcleanserpro}
           />
           <div className={`${styles.cleanserDetail}`}>
             <div>
