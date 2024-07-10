@@ -4,6 +4,7 @@ import SearchBar from "./SearchBar"
 import ProductBars from "./ProductBars"
 import ProductListingText from "./ProductListingText"
 import CleanserProduct from "./CleanserProduct"
+import Footer from "./Footer"
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <ProductBars/>
         <ProductListingText/>
         <CleanserProduct/>
+        <Footer/>
        
     </div>
 
