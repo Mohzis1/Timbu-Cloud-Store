@@ -1,13 +1,10 @@
 .linkcontainer {
     text-decoration: none;
-    text-underline: none;
-    font-family: "Petrona", serif;
+        font-family: "Petrona", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.5px;
-    text-align: left;
-    justify-item: center;
-    color: #000000;
+        color: #000000;
    
   }
 
@@ -15,45 +12,44 @@
     background-color: #FFFFFF;
     width:55px;
     height: 18px;
-    object-fit: auto;    
+    
     color: #000000;
   }
   .aboutItem{
     background-color: #FFFFFF;
     width: 55px;
     height: 18px;
-    object-fit: auto;
+   
     color: #000000;
   }
   .contactItem{
-    background-color:#FFFFFF;
+    background-color:#ffffff;
     
     width: 55px;
     height: 18px;
-    object-fit: auto;
+    
     color: #000000;
   }
 
   .cartIcon{
     background-color: #69A7D0;
     border-radius: 16px ;
-   
     width: 72px;
     height:48px;
-    gap: 10px; 
-    text-align: center;
-    margin-left: 399px;
-  }
-
-  .cartIconImg{
-   
-    margin-top: 3px;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    margin-top: 12px;
-    margin-left: 2px;
-    width: 24px;
-    height: 24px;
+    align-items: center;
+
+   
+    padding: 12px, 24px, 12px, 24px;
+     
+      }
+
+    .cartIconImg{
+      margin-top: 3px;
+      margin-left: 2px;
+      width: 24px;
+      height: 24px; 
+         
+    }
   
-  }
- 
