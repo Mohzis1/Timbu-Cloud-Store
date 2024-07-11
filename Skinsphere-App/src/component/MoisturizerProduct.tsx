@@ -1,7 +1,8 @@
 import styles from "./External styles/cleanserpro.module.css";
 import moisture1Img from "../assets/Moisturizer1.png";
 import moisture2Img from "../assets/Moisturizer2.png";
-import ProductListingText3 from "../component/ProductListingText3.tsx"
+import ProductListingText3 from "../component/ProductListingText3.tsx";
+import  CartButton from "../component/CartButton.tsx";
 
 
 
@@ -29,7 +30,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
 
@@ -52,7 +53,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -74,7 +75,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
       </div>
@@ -99,7 +100,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -121,7 +122,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -143,7 +144,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
       </div>
@@ -168,7 +169,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -190,7 +191,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -212,7 +213,7 @@ function MoisturizerProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-            <nav></nav>
+            <CartButton/>
           </div>
         </div>
       </div>

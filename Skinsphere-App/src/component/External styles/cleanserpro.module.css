@@ -3,10 +3,9 @@
     width: 100%;
     height: 431px;
     gap:48px;
-    
-  
-    
-    justify-content: center;}
+    padding: 24px;
+     justify-content: center;
+    }
    
 
 .cleanserproItem2{   
@@ -23,9 +22,11 @@
 }
 .cleanserDetail{
     justify-content: space-between;
-    padding:    0px, 24px, 0px, 24px;
-   height: 59px;
    
+   height: 59px;
+   display: flex;
+   align-items: center;
+   padding-top:24px;
 }
 .productPrice{
     font-weight: 600;
