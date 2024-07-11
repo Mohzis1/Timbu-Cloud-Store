@@ -2,8 +2,11 @@ import Navbar from "./navbar"
 import SecondFrame from "./SecondFrame"
 import SearchBar from "./SearchBar"
 import ProductBars from "./ProductBars"
-import ProductListingText from "./ProductListingText"
+
 import CleanserProduct from "./CleanserProduct"
+import SerumProduct from "./SerumProduct"
+import MoisturizerProduct from "./MoisturizerProduct"
+import FaceOilProduct from "./FaceOilProduct"
 import Footer from "./Footer"
 
 
@@ -16,8 +19,10 @@ function App() {
         <SecondFrame/>
         <SearchBar/>
         <ProductBars/>
-        <ProductListingText/>
         <CleanserProduct/>
+        <SerumProduct/>
+        <MoisturizerProduct/>
+        <FaceOilProduct/>
         <Footer/>
        
     </div>

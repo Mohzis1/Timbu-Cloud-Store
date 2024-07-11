@@ -1,18 +1,18 @@
 import styles from "./External styles/cleanserpro.module.css";
-import cleanser1Img from "../assets/cleanser1.png";
-import cleanser2Img from "../assets/cleanser2.png";
-import ProductListingText from "../component/ProductListingText.tsx"
+import moisture1Img from "../assets/Moisturizer1.png";
+import moisture2Img from "../assets/Moisturizer2.png";
+import ProductListingText3 from "../component/ProductListingText3.tsx"
 
 
 
-function CleanserProduct() {
+function MoisturizerProduct() {
   return (
     <section>
-<ProductListingText/>
+<ProductListingText3/>
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser1Img}
+            src={moisture1Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -35,7 +35,7 @@ function CleanserProduct() {
 
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser2Img}
+            src={moisture2Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -57,7 +57,7 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser1Img}
+            src={moisture1Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -82,7 +82,7 @@ function CleanserProduct() {
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser2Img}
+            src={moisture2Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -104,7 +104,7 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser1Img}
+            src={moisture1Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -126,7 +126,7 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser2Img}
+            src={moisture2Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -151,7 +151,7 @@ function CleanserProduct() {
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser1Img}
+            src={moisture1Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -173,7 +173,7 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser2Img}
+            src={moisture2Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -195,7 +195,7 @@ function CleanserProduct() {
         </div>
         <div className={`${styles.cleanserproItem2}`}>
           <img
-            src={cleanser1Img}
+            src={moisture1Img}
             alt="Cleanser Product"
             className={styles.imgcleanserpro}
           />
@@ -220,4 +220,4 @@ function CleanserProduct() {
   );
 }
 
-export default CleanserProduct;
+export default MoisturizerProduct;

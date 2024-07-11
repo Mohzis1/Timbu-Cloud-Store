@@ -13,7 +13,7 @@ function SecondFrame() {
           marginTop:"-10px"
         }}
       />
-    </div>
+    </div> 
   );
 }
 
