@@ -21,7 +21,7 @@
     border-radius: 8px;
 }
 .cleanserDetail{
-    justify-content: space-between;
+    justify-content: space-evenly;
    
    height: 59px;
    display: flex;
