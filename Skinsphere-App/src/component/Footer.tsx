@@ -5,7 +5,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <footer style={{width:"100%"}} className="footer">
+    <footer style={{width:"100%", }} className="footer">
       <div className="footerFirst" style={{display:"flex", flexWrap: "wrap", height:"100%", justifyContent:"space-evenly", padding:"43px", backgroundColor:"#9BC4E0"}}>
         <div style={{padding:"40px"}}>
           <svg width="100" height="5"> 

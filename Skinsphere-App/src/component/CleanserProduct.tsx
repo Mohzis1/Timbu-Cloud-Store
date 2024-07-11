@@ -2,6 +2,7 @@ import styles from "./External styles/cleanserpro.module.css";
 import cleanser1Img from "../assets/cleanser1.png";
 import cleanser2Img from "../assets/cleanser2.png";
 
+
 function CleanserProduct() {
   return (
     <section>

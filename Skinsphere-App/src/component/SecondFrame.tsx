@@ -1,10 +1,10 @@
+import secondFrame from "../assets/Frame 2.png";
+
 function SecondFrame() {
   return (
     <div>
       <img
-        src="./src/assets/Frame 2.png"
-        alt=""
-        style={{
+        src={secondFrame}  alt="" style={{
           margin: "0px",
           padding: "0px",
           width: "100%",

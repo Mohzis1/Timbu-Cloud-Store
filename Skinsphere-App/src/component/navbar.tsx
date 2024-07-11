@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./External styles/nabar.module.css"
 import navItems  from "./External styles/nav-item.module.css"
+import  cart from "../assets/Cart.svg"
 
 
 
@@ -35,7 +36,10 @@ const Navbar: React.FC<NavbarProps> = () => {
       </div>
 
           <div className={`${navItems.cartIcon}`}>
-            <img src="./src/assets/Cart.svg" alt="cart icon" className={`${navItems.cartIconImg}`} />
+          <img
+            src={cart}
+            alt="cart-icon"
+           className={`${navItems.cartIconImg}`} />
            
           </div>
           </div>
