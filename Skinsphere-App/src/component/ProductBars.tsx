@@ -9,7 +9,7 @@ function ProductBars() {
       <Link to="/cleanser"><button  className={`${productBars.productBarsTwo}`}>Cleanser</button> </Link>
       <Link to="/serum"><button className={`${productBars.productBarsThree}`}>Serum</button></Link>
       <Link to="/moisturizer"><button className={`${productBars.productBarsFour}`}>Moisturizer</button></Link>
-      <Link to="/face-oil"><button className={`${productBars.productBarsFive}`}>Face oil</button></Link>
+      <Link to="/faceoil"><button className={`${productBars.productBarsFive}`}>Face oil</button></Link>
     </div>
   );
 }

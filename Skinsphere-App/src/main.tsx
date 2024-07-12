@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path="cleanser" element={<Cleanser />} />
       <Route path="serum" element={<Serum />} />
       <Route path="moisturizer" element={<Moisturizer />} />
-      <Route path="face-oil" element={<FaceOil />} />
+      <Route path="faceoil" element={<FaceOil />} />
     </Route>
   )
 );

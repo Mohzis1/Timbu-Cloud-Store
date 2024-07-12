@@ -25,7 +25,7 @@ function Footer() {
               x2="100"
               y2="2.5"
               stroke="white"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </svg>
           <div style={{ width: "177px", height: "" }}>
@@ -111,7 +111,7 @@ function Footer() {
               x2="100"
               y2="2.5"
               stroke="white"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </svg>
           <div>

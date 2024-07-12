@@ -2,14 +2,12 @@ import styles from "./External styles/cleanserpro.module.css";
 import FaceOil1Img from "../assets/FaceOil1.png";
 import FaceOil2Img from "../assets/FaceOil2.png";
 import ProductListingText4 from "../component/ProductListingText4.tsx";
-import  CartButton from "../component/CartButton.tsx";
-
-
+import CartButton from "../component/CartButton.tsx";
 
 function FaceOilProduct() {
   return (
     <section>
-<ProductListingText4/>
+      <ProductListingText4 />
       <div className={`${styles.cleanserproItem}`}>
         <div className={`${styles.cleanserproItem2}`}>
           <img
@@ -30,7 +28,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
 
@@ -53,7 +51,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -75,7 +73,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
       </div>
@@ -100,7 +98,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -122,7 +120,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -144,7 +142,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
       </div>
@@ -169,7 +167,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -191,7 +189,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
         <div className={`${styles.cleanserproItem2}`}>
@@ -213,7 +211,7 @@ function FaceOilProduct() {
               </h2>
               <p className={`${styles.productPrice}`}>#52,000</p>
             </div>
-           <CartButton/>
+            <CartButton />
           </div>
         </div>
       </div>

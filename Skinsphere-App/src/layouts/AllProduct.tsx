@@ -4,14 +4,13 @@ import MoisturizerProduct from '../component/MoisturizerProduct.tsx';
 import FaceOilProduct from '../component/FaceOilProduct.tsx';
 
 
-
-const AllProduct = () => {
+const AllProduct: React.FC = () => {
   return (
     <div>
-        {<CleanserProduct />}
-        {<SerumProduct />}
-        {<MoisturizerProduct />}
-        {<FaceOilProduct />}
+        <CleanserProduct />
+        <SerumProduct />
+        <MoisturizerProduct />
+       <FaceOilProduct />
    
 
     </div>
