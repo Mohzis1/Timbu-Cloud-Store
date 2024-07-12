@@ -5,13 +5,14 @@ import FaceOilProduct from '../component/FaceOilProduct.tsx';
 
 
 
-const AllProduct = (props: Props) => {
+const AllProduct = () => {
   return (
     <div>
         {<CleanserProduct />}
         {<SerumProduct />}
         {<MoisturizerProduct />}
         {<FaceOilProduct />}
+   
 
     </div>
   )
