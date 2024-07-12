@@ -1,9 +1,9 @@
-import CleanserProduct from '../component/CleanserProduct.tsx'
-import SerumProduct from '../component/SerumProduct.tsx'
-import MoisturizerProduct from '../component/MoisturizerProduct.tsx'
-import FaceOilProduct from '../component/FaceOilProduct.tsx'
+import CleanserProduct from '../component/CleanserProduct.tsx';
+import SerumProduct from '../component/SerumProduct.tsx';
+import MoisturizerProduct from '../component/MoisturizerProduct.tsx';
+import FaceOilProduct from '../component/FaceOilProduct.tsx';
 
-type Props = {}
+
 
 const AllProduct = (props: Props) => {
   return (
