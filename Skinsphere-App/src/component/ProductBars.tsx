@@ -1,14 +1,15 @@
 import productBars from "./External styles/product-bars.module.css"
+import { Link } from 'react-router-dom';
 
 function ProductBars() {
   return (
     <div className={`${productBars.productContainer}`}>
-      <button  className={`${productBars.productBarsOne}`}>All</button>
+      <Link to="/"><button  className={`${productBars.productBarsOne}`}>All</button></Link>
 
-      <button  className={`${productBars.productBarsTwo}`}>Cleanser</button>
-      <button className={`${productBars.productBarsThree}`}>Serum</button>
-      <button className={`${productBars.productBarsFour}`}>Moisturizer</button>
-      <button className={`${productBars.productBarsFive}`}>Face oil</button>
+      <Link to="/cleanser"><button  className={`${productBars.productBarsTwo}`}>Cleanser</button> </Link>
+      <Link to="/serum"><button className={`${productBars.productBarsThree}`}>Serum</button></Link>
+      <Link to="/moisturizer"><button className={`${productBars.productBarsFour}`}>Moisturizer</button></Link>
+      <Link to="/face-oil"><button className={`${productBars.productBarsFive}`}>Face oil</button></Link>
     </div>
   );
 }

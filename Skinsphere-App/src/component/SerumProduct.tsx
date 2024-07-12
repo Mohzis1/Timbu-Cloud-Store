@@ -1,8 +1,8 @@
 import styles from "./External styles/cleanserpro.module.css";
 import serum1Img from "../assets/Serum1.png";
 import serum2Img from "../assets/Serum2.png";
-import ProductListingText2 from "../component/ProductListingText2.tsx";
-import  CartButton from "../component/CartButton.tsx";
+ import ProductListingText2 from "./ProductListingText2";
+import  CartButton from "./CartButton.tsx";
 
 
 function SerumProduct() {
@@ -220,4 +220,4 @@ function SerumProduct() {
   );
 }
 
-export default SerumProduct;
+export default SerumProduct

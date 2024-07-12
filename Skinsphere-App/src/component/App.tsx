@@ -1,13 +1,12 @@
-import Navbar from "./navbar"
-import SecondFrame from "./SecondFrame"
-import SearchBar from "./SearchBar"
-import ProductBars from "./ProductBars"
+import Navbar from "./navbar.tsx";
+import SecondFrame from "./SecondFrame.tsx";;
+import SearchBar from "./SearchBar.tsx";
+import ProductBars from "./ProductBars.tsx";
+import Footer from "./Footer.tsx";
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-import CleanserProduct from "./CleanserProduct"
-import SerumProduct from "./SerumProduct"
-import MoisturizerProduct from "./MoisturizerProduct"
-import FaceOilProduct from "./FaceOilProduct"
-import Footer from "./Footer"
+
 
 
 
@@ -19,10 +18,7 @@ function App() {
         <SecondFrame/>
         <SearchBar/>
         <ProductBars/>
-        <CleanserProduct/>
-        <SerumProduct/>
-        <MoisturizerProduct/>
-        <FaceOilProduct/>
+        <Outlet /> 
         <Footer/>
        
     </div>
